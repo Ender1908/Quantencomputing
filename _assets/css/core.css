@@ -18,12 +18,17 @@ h1,
 h2,
 h3 {
     margin: 0;
+    font-weight: 500;
+    font-size: 1.17em;
 }
 pre,
 code,
 samp,
 .monospace {
     font-family: "Ubuntu Mono", monospace;
+}
+code {
+    color: black;
 }
 b {
     display: block;
@@ -95,8 +100,8 @@ body {
 body > header,
 body > footer {
     align-items: center;
-    background: black;
-    color: white;
+    background: white;
+    color: #e2001a;
     display: grid;
     grid-gap: 0.5rem;
     padding: 0.5rem;
@@ -201,8 +206,8 @@ article > .MathJax_MathML {
     margin: 0.5rem 0 auto 0 !important;
 }
 article > header {
-    background: #2e3436;
-    color: #fcaf3e;
+    background: #5c6971;
+    color: white;
     margin: 0 -0.5rem auto -0.5rem;
     padding: 0.25rem 0.5rem;
 }
@@ -246,7 +251,7 @@ article ol > li::before {
     width: 1em;
 }
 article ul > li::before {
-    background: #f57900;
+    background: #e2001a;
     border-radius: 100%;
     content: " ";
     height: 0.35em;
@@ -269,7 +274,7 @@ article ul.inline li::before {
     display: none;
 }
 .boxed {
-    border: thin solid #f57900;
+    border: thin solid #e2001a;
     padding: 0.25rem;
 }
 .center {
