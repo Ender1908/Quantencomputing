@@ -9,26 +9,30 @@
 
     <link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/core.css">
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+          rel="stylesheet">
 
     <style type="text/css">
-        html { font-size: 1.15rem }
+        html {
+            font-size: 1.15rem
+        }
     </style>
 </head>
 
 <body vocab="http://schema.org/" typeof="ScholarlyArticle">
 <header role="banner">
     <aside>
-<!--        <a href="https://github.com/cpitclaudel/academic-poster-template"><img src="logo.svg" alt="Tutorial logo"></a>-->
+        <!--        <a href="https://github.com/cpitclaudel/academic-poster-template"><img src="logo.svg" alt="Tutorial logo"></a>-->
     </aside>
     <div>
         <h1 property="headline">Store Now Decrypt Later</h1>
         <h2 property="alternativeHeadline">Quantencomputing</h2>
         <address>
             <a property="author">WWI21KI</a>
-            <br /><a property="sourceOrganization" href="https://heidenheim.dhbw.de" target="_blank">DHBW Heidenheim</a>
+            <br/><a property="sourceOrganization" href="https://heidenheim.dhbw.de" target="_blank">DHBW Heidenheim</a>
         </address>
         <span class="publication-info">
                       <span property="publisher">Unpublished</span>,
@@ -36,13 +40,20 @@
                   </span>
     </div>
     <aside>
-        <a href="https://www.heidenheim.dhbw.de/startseite"><img style="background: white" src="assets/images/Logo.png" alt="MIT CSAIL Logo"></a>
+        <a href="https://www.heidenheim.dhbw.de/startseite"><img style="background: white" src="assets/images/Logo.png"
+                                                                 alt="MIT CSAIL Logo"></a>
+        <a href="https://www.heidenheim.dhbw.de/startseite"><img style="background: white"
+                                                                 src="./_assets/images/Logo.png"
+                                                                 alt="MIT CSAIL Logo"></a>
     </aside>
 </header>
 
 <main property="articleBody">
+
+    <!--Einführung-->
     <article property="abstract">
-        <header><h3>Abstract</h3></header>
+        <header><h3>Zielsetzung / Relevanz des Themas</h3></header>
+
 
         <p>Academic posters are usually designed using presentation software and distributed as images or PDFs.</p>
 
@@ -53,207 +64,753 @@
         <p>This template is released under a permissive license: all we ask if you use it for your own posters is that you leave a one-line comment in the HTML sources.</p>
     </article>
 
-    <article>
-        <header><h3>Editing the HTML directly</h3></header>
 
-        <p>This is the simplest way to get started, since it just requires a text editor:</p>
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#why">
+        <header><h3> Warum betrifft es uns?</h3></header>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aspernatur assumenda blanditiis debitis doloribus dolorum ex, expedita fugit illum iure labore maiores provident quaerat tenetur, ullam velit vitae voluptatibus.
+        </p>
 
-        <ol>
-            <li>Download the <a href="https://github.com/cpitclaudel/academic-poster-template/releases/latest">latest release</a> of this template (or download the <a href="https://raw.githubusercontent.com/cpitclaudel/academic-poster-template/main/docs/tutorial/poster.html">webpage</a> and the corresponding <a href="https://raw.githubusercontent.com/cpitclaudel/academic-poster-template/main/docs/poster.css">stylesheet</a> directly from the <a href="https://github.com/cpitclaudel/academic-poster-template/tree/main/docs/tutorial/">repository</a>).</li>
-            <li>Adjust the metadata and add blocks to the <code>main</code> section.</li>
-        </ol>
+
+    </article>
+
+
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#rsa">
+        <header><h3>RSA</h3></header>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aspernatur assumenda blanditiis debitis doloribus dolorum ex, expedita fugit illum iure labore maiores provident quaerat tenetur, ullam velit vitae voluptatibus.
+        </p>
+
+
     </article>
 
     <article>
-        <header><h3>Poster layout</h3></header>
+        <header><h3>Algorithmen</h3></header>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis doloribus excepturi facilis, incidunt modi neque quam quasi rerum vitae? Delectus deleniti error est officia quisquam sapiente ullam? Fuga, ipsum.
+            </p>
+        </div>
+        <hr>
+        <div class="c_modal" data-bs-toggle="modal" data-bs-target="#euklAlgorithmus">Euklidischer Algorithmus</div>
+        <hr>
+        <div class="c_modal" data-bs-toggle="modal" data-bs-target="#shorAlogrithmus">Shor Alogrithmus</div>
+        <hr>
+        <div class="c_modal" data-bs-toggle="modal" data-bs-target="#example">Beispiel</div>
 
-        <p>Posters made using this template are composed of a sequence of blocks.  You can use CSS to customize the way the blocks are designed; by default they scroll left to right on wide screens and top to bottom on narrow screens.</p>
 
-        <b>Try resizing your browser to see how the poster's layout changes.</b>
     </article>
 
-    <article>
-        <header><h3>Block template</h3></header>
-
-        <p>Each block has the following structure (fill in the italicized parts):</p>
-
-        <pre>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a>&gt;
-  &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">header</a>&gt;&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h">h3</a>&gt;<i>Block title</i>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3">h3</a>&gt;&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">header</a>&gt;
-
-  <i>Block contents:
-    paragraphs (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;),
-    figures (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;),
-    lists (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;, &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;),
-    images (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a>&gt;, &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object">object</a>&gt;),
-    tables (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">table</a>&gt;), …</i>
-&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a>&gt;</pre>
-    </article>
-
-    <article>
-        <header><h3>Structural markup</h3></header>
-
-        <p>The following markup is useful to structure content blocks:</p>
-        <ul>
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;</code>
-                <p style="margin: 0">Paragraphs</p>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;</code>
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;</code>
-                <ul>
-                    <li><code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code>…<code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code></li>
-                </ul>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;</code> (Plain lists)
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;</code>
-                <ol>
-                    <li><code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code>…<code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code></li>
-                </ol>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;</code> (Numbered lists)
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">b</a>&gt;</code>
-                <b>Call-outs (<i>alerts</i>)</b>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">b</a>&gt;</code>
-            </li>
-        </ul>
-    </article>
-
-    <article>
-        <header><h3>Inline markup</h3></header>
-        <ul>
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a> href="<var>url</var>"&gt;</code>
-                <a href="url">Links</a>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a>&gt;</code>
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em</a>&gt;</code>
-                <em>Emphasized text</em>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em</a>&gt;</code>
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong</a>&gt;</code>
-                <strong>Important text</strong>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong</a>&gt;</code>
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">i</a>&gt;</code>
-                <i>Scientific terms, foreign words</i>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">i</a>&gt;</code>
-            </li>
-
-            <li>
-                <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var">var</a>&gt;</code>
-                <var>Math variables, placeholders</var>
-                <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var">var</a>&gt;</code>
-            </li>
-        </ul>
-
-        <b>Not sure which one to use? Check out <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Mozilla's explanations</a>.  Using appropriate markup helps screen readers a lot.</b>
-    </article>
-
-    <article>
-        <header><h3>Figures</h3></header>
-
-        <p>Use the following code to insert a figure:</p>
-
-        <pre>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;
-  <i>Figure contents:
-    images (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a>&gt;, &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object">object</a>&gt;),
-    tables (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">table</a>&gt;),
-    quotes, …</i>
-  &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">figcaption</a>&gt;<i>Figure caption</i>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">figcaption</a>&gt;
-&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;</pre>
-
-        <hr/>
-
-        <figure>
-            <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg" width="197" height="64" alt="An orange shield with a white 5 emblazoned on it and the letters HTML above it.">
-
-            <figcaption>The HTML5 logo (<i>Source: <a href="https://www.w3.org/html/logo/">W3C</a></i>)</figcaption>
-        </figure>
-    </article>
-
-    <article>
-        <header><h3>Images</h3></header>
-
-        <p>Use the following code to include an image:</p>
-
-        <pre class="center-self">&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> src="<var>source url</var>"
-     alt="<var>image description</var>"&gt;</pre>
-
-        <p>Prefer scalable images (SVG) for technical drawings and figures.</p>
-
-        <small>Most technical drawing software supports saving as SVG; if yours does not, you can typically save to PDF, which can then easily be <a href="https://superuser.com/questions/381125/how-do-i-convert-an-svg-to-a-pdf-on-linux">converted to SVG</a> (this is useful for TikZ diagrams in particular).</small>
-
-        <p>Make sure to include an <code>alt</code> attribute: it will be read by assistive technology and displayed while the image is loading.
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputer">
+        <header><h3>Quantencomputer</h3></header>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
         </p>
     </article>
 
-    <article>
-        <header><h3>Mathematics</h3></header>
-
-        <p>This poster template loads <a href="https://www.mathjax.org/">MathJax</a> by default, so you can include inline math in backslash-parentheses <code>\( … \)</code> and display math in backslash-brackets <code>\[ … \]</code>:</p>
-
-        <p class="center">\((\lambda x. e) v \downarrow e[x/v]\) (β-reduction)</p>
-
-        \[\frac
-        {\langle \mathtt{expr}, s\rangle \Downarrow v}
-        {\langle \mathtt{var := expr}, s\rangle \downarrow s\left[\mathtt{var} \leftarrow v\right]}
-        \small{\text{Assign}}\]
-
-        <p>Using MathJax allows users of assistive technology to browse the equations.</p>
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputerChanges">
+        <header><h3>Was ändert ein Quantencomputer daran?</h3></header>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
+        </p>
     </article>
 
-    <article>
-        <header><h3>Additional styling</h3></header>
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#summary">
+        <header><h3>Zusammenfassung</h3></header>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
+        </p>
+    </article>
 
-        <p>The template's stylesheet defines a few extra CSS classes:</p>
+    <!--Pop-ups-->
+    <!-- Button trigger modal -->
 
-        <p class="boxed center"><code>.center</code><br/>
-            (horizontally centered text)</p>
+    <!--Modal Einführung-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="einführung" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="einführungLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
 
-        <p class="boxed justify-center"><code>.justify-center</code><br/>
-            (horizontally centered block)</p>
 
-        <div class="boxed center">
-            <div class="center columns" style="height: 3em">
-                <code style="align-self: start">.columns-top</code>
-                <code style="align-self: center">.columns-center</code>
-                <code style="align-self: end">.columns-bottom</code>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
             </div>
-            <span>(columns)</span>
         </div>
+    </div>
 
-        <small>To customize column widths, use <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns"><code>grid-template-columns</code></a>; for example, for 40%/60% widths, use the following snippet:
-            <pre class="center">style="grid-template-columns: 40fr 60fr"</pre>
-        </small>
-    </article>
+    <!--Modal Warum betrifft es uns?-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="why" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="whyLabel">Warum betrifft es uns?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Da Quantencomputer die aktuell genutzte Verschlüsselung entschlüsseln können, stellt das „Store now, decrypt later" - Prinzip (auch „Harvest now, decrypt later“ - Prinzip genannt) ein besonders großes Problem ist dar. Dabei werden bereits heute Daten in großem Maße abgegriffen und gespeichert, um diese in Zukunft mit der Verwendung von Quantencomputern zu entschlüsseln. Unbefugte Personen können so in Zukunft an sensible Daten, wie zum Beispiel Gesundheitsdaten, Patente, Firmengeheimnisse oder ähnliches kommen.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <figure style="flex-grow: 9999999">
-        <img style="width: 70%" src="logo.svg" alt="Project logo" />
-        <figcaption>A stand-alone figure to fill the remaining space.</figcaption>
-    </figure>
+    <!--Modal RSA-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="rsa" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="rsaLabel">Die RSA Verschlüsselung</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Das RSA-Verfahren wurde in den 1970er Jahren von den Wissenschaftlern Ron Rivest, Adi Shamir und Len Adleman entwickelt. Diese sind auch für die Namensgebung, Rivest Shamir Adleman – Verfahren verantwortlich. Das Ziel ihrer Arbeit war es, eine Methode zu Entwickeln, um einerseits Nachrichten privat zu versenden und andererseit Nachrichten digital signieren zu können. In ihrer Arbeit zeigten sie auch, wie man dies in ein elektronisches Postsystem integrieren könnte. Die Grundlage für ihre Arbeit lieferten Diffie und Hellmann, welche ein sogenanntes „public-key cryptography“ entwickelten.
+                    </p>
+                    <p>
+                        Das Grundprinzip der RSA-Verschlüsselung ist demnach einen privaten und öffentlichen Schlüssel zu bilden. Hierfür wählt man zwei sehr große Primzahlen p und q, welche der gleichen größenordnung entsprechen, und berechnet das Produkt aus diesen.
+                    </p>
+                    <p>
+                        \[ n = p \cdot q \]
+                    </p>
+                    <p>
+                        \(n\) ist der öffentliche Schlüssel
+                    </p>
+                    <p>
+                        \(p\) und \(q\) sind die privaten Schlüssel
+                    </p>
+                    <p>
+                        Die Sicherheit der RSA – Verschlüsselung beruht darauf, dass es einfach ist, den öffentlichen Schlüssel zu bilden, aber es jedoch nahezu unmöglich ist den privaten Schlüssel anhand des öffentlichen zu berechnen.
+                    </p>
+                    <p>
+                        Dieser öffentliche Schlüssel wird für die Verschlüsselung verwendet und muss nicht geheimgehalten werden. Der private Schlüssel hingegen muss geheimgehalten werden und wird für die Entschlüsselung verwendet. Zur Verschlüsselung einer Nachricht wird der öffentliche Schlüssel des Empfängers verwendet. Die Nachricht wird je nach deren Länge in Blöcke aufgeteilt. Jeder dieser Blöcke wird durch den öffentlichen Schlüssel verschlüsselt. Nun kann diese verschlüsselte Nachricht an den Empfänger gesendet werden. Nun kann der Empfänger die verschlüsselte Nachricht entschlüsseln. Hierfür muss er seinen privaten Schlüssel verwenden. Durch die RSA – Verschlüsselung kann die Nachricht nur mit dem entsprechenden privaten Schlüssel entschlüsselt werden.
+                    </p>
+                    <p>
+                        Mit dem heutigen Stand der Technik ist es, wie oben erwähnt, unmöglich den öffentlichen Schlüssel n ohne den privaten Schlüssel p und q in dessen Primfaktoren zu zerlegen. Damit dies der Fall ist empfhielt das Bundesamt für Sicherheit in der Informationstechnik eine Mindestbitlänge von 3000 Bits. Dies garnatiert die Sicherheit von RSA.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Euklidischer Algorithmus-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="euklAlgorithmus" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Euklidischer Algorithmus</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Der Euklidischer Algorithmus wird genutzt um den größten gemeinsamen Teiler zu ermitteln. Die Funktionsweise ist folgende:
+                    </p>
+                    <ol>
+                        <li>Zunächst wird \(a\) durch \(b\) geteilt, um den Rest der Division zu erhalten. Ist der Rest gleich \(0\) ist \(b\) bereits der größte gemeinsame Teiler. Falls der Rest nicht gleich \(0\) ist so wird \(b\) durch den Rest geteilt.
+                        </li>
+                        <li>Nun werden diese Schritte so oft ausgeführt bis der Rest gleich null ergibt</li>
+                    </ol>
+                    <p>Beispiel: Gemeinsamer größter Teiler von 77 und 8</p>
+                    \(77 / \) <span class="highlight">\(8\)</span> \( = 9 Rest \) <span
+                        class="highlight">\(5\)</span><br>
+                    <span class="highlight">\(8\)</span> \( / \) <span class="highlight">\(5\)</span> \( = 1 Rest \)
+                    <span>\( 3 \)</span><br>
+
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">\(a\)</th>
+                            <th scope="col">\(b\)</th>
+                            <th scope="col">\(Rest\)</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>\(77\)</td>
+                            <td>\(8\)</td>
+                            <td>\(5\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(8\)</td>
+                            <td>\(5\)</td>
+                            <td>\(3\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(5\)</td>
+                            <td>\(3\)</td>
+                            <td>\(2\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(3\)</td>
+                            <td>\(2\)</td>
+                            <td>\(1\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(2\)</td>
+                            <td>\(1\)</td>
+                            <td>\(0\)</td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Shor Algorithmus-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="shorAlogrithmus" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="shorAlogrithmusLabel">Shor Algorithmus</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Der Shor Algorithmus wurde im Jahre 1994 entwickelt</p>
+                    <ol>
+                        <li>
+                            Als erster Schritt wird eine zufällige Zahl ausgewählt, welche kleiner ist als n. (\(m < n \)). Mit Hilfe des Euklidischen Algorithmus wird der größte gemeinsame Teiler ermitteln. Ist dieser Teiler gleich 1 so wird mit Schritt 2 fortgefahren. Ist der kleinste gemeinsame Teiler nicht gleich 1 so ist das Problem bereits gelöst und eine der Primzahlen wurde herausgefunden.
+                        </li>
+                        <li>
+                            Als 2. Schritt muss die Periode herausgefunden werden. Um diese Periode herauszufinden, wird die zufällig ausgewählte Zahl m potenziert und anschließend durch n dividiert. Im Folgenden wird dann der Rest der Berechnung betrachtet.Mit der Formel m^p=mN+1 kann die Periode herausgefunden werden.
+                        </li>
+                        <li>
+                            Wurde die Periode gefunden muss nun überprüft werden, ob die Periode eine gerade oder ungerade Zahl ist. Ist die Zahl gerade kann mit dem nächsten Schritt fortgefahren werden. Ist die Zahl ungerade muss mit einer neuen Zahl in Schritt 1 begonnen.L
+                        </li>
+                        <li>
+                            Im 4. Schritt wird überprüft, ob \(m^{\frac{P}{2}} + 1\) nicht \(0 \pmod{n}\) ist. Ist \(m^{\frac{P}{2}} + 1 \neq 0 \pmod{n}\) wird Schritt 5 durchgeführt. Ist dies nicht der Fall muss mit Schritt 1 wieder begonnen werden.
+                        </li>
+                        <li>
+                            In Schritt 5 wird nun der größte gemeinsamen Teiler (ggT) von \( \text{ggT}(m^{\frac{P}{2}} + 1, n) \) mittels dem Euklidischen Algorithmus ermittelt. Das Ergebnis von dieser Rechnung ist nun einer der Primzahlen, aus welcher \(n\) besteht.
+                        </li>
+                    </ol>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal Beispiel-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="example" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleLabel">Shor Algorithmus</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Zunächst wird eine Zahl \(n\) ausgewählt, welche aus zwei Primzahlen \(p\) und \(q\) besteht.
+                    </p>
+                    <p>
+                        \[ p \cdot q = 7 \cdot 13 = 91 \]
+                    </p>
+                    <ol>
+                        <li>
+                            <p>Es wird eine zufällige Zahl \( m \) ausgewählt. Diese Zahl muss kleiner als \(n\) sein. In diesem Beispiel wird die Zahl \(m = 3\) ausgewählt.</p>
+                            <p>Außerdem wird mithilfe des Euklidische Algorithmuses bestimmt der ggT der beiden Zahlen bestimmt. \( \text{ggT}(m, n) = \text{ggT}(3, 91) = 1 \)</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">\(a\)</th>
+                                    <th scope="col">\(b\)</th>
+                                    <th scope="col">\(Rest\)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>\(91\)</td>
+                                    <td>\(3\)</td>
+                                    <td>\(1\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3\)</td>
+                                    <td>\(1\)</td>
+                                    <td>\(0\)</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                        <li>
+                            <p>Im 2. Schritt wird nun die Periode \(p\) herausgefuden.</p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">\(x\)</th>
+                                    <th scope="col">\(Ergebnis\)</th>
+                                    <th scope="col">\( \pmod{n} \)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>\(3^0\)</td>
+                                    <td>\(1\)</td>
+                                    <td>\(1\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^1\)</td>
+                                    <td>\(3\)</td>
+                                    <td>\(3\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^2\)</td>
+                                    <td>\(9\)</td>
+                                    <td>\(9\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^3\)</td>
+                                    <td>\(27\)</td>
+                                    <td>\(27\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^4\)</td>
+                                    <td>\(81\)</td>
+                                    <td>\(81\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^5\)</td>
+                                    <td>\(243\)</td>
+                                    <td>\(61\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^6\)</td>
+                                    <td>\(729\)</td>
+                                    <td>\(1\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^7\)</td>
+                                    <td>\(2187\)</td>
+                                    <td>\(3\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^8\)</td>
+                                    <td>\(6561\)</td>
+                                    <td>\(9\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^9\)</td>
+                                    <td>\(19683\)</td>
+                                    <td>\(27\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^{10}\)</td>
+                                    <td>\(59049\)</td>
+                                    <td>\(81\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^{11}\)</td>
+                                    <td>\(177147\)</td>
+                                    <td>\(61\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(3^{12}\)</td>
+                                    <td>\(531441\)</td>
+                                    <td>\(1\)</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <p>Es ist zu erkennen, dass die Periode \(p = 6\).</p>
+                        </li>
+                        <li>
+                            In Schritt 4 wird überprüft, ob die Periode gerade ist. Da die Periode gerade ist, kann mit Schritt 5 fortgefahren werden.
+                        </li>
+                        <li>
+                            \(m^{\frac{P}{2}} + 1 = 3^{\frac{6}{2}} + 1 = 28 \equiv 0 \pmod{28}, \quad \text{folglich nicht} \equiv 0 \pmod{91}\)
+                        </li>
+                        <li>
+                            <p>
+                                \(\text{ggT}\left(3^{\frac{6}{2}} + 1, 91\right) = \text{ggT}\left(28, 91\right)\)
+                            </p>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">\(a\)</th>
+                                    <th scope="col">\(b\)</th>
+                                    <th scope="col">\(Rest\)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>\(91\)</td>
+                                    <td>\(28\)</td>
+                                    <td>\(7\) ← Größter gemeinsamer Teile bzw. \(q\)</td>
+                                </tr>
+                                <tr>
+                                    <td>\(28\)</td>
+                                    <td>\(7\)</td>
+                                    <td>\(0\)</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </li>
+                    </ol>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Modal Quantencomputer-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="quantencomputer" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="quantencomputerAlogrithmusLabel">Quantencomputer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Ein Quantencomputer fundiert auf den Prinzipien der Quantenmechanik und unterscheidet sich von traditionellen Computern durch die Verwendung von Quantenbits oder Qubits anstelle herkömmlicher Bits. Quantenbits, oft auch als Qubits abgekürzt, sind die grundlegenden Informationseinheiten in der Quantencomputertechnologie. Im Gegensatz zu den Qubits stehen die klassischen Bits, die in der heutigen Zeit Standard in der Informationstechnik sind. Diese herkömmlichen Bits können nur die beiden Werte 0 oder 1 annehmen. Ein Qubit wiederum kann sich nach dem Superpositionsprinzip in einer Linearkombination in mehreren Zuständen gleichzeitig befinden. Dies wird daher auch Superposition genannt. Qubits können somit nicht nur die eindeutigen Zustände 0 oder 1 besitzen, sondern auch eine Überlagerung dieser beiden Zustände.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal was ändern quantencomputer daran-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="quantencomputerChanges" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="quantencomputerChangesLabel">Was ändern Quantencomputer daran?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Um beispielsweise einen RSA-Schlüssel zu entschlüsseln, wird nicht unbedingt ein Quantencomputer benötigt. Die Entschlüsselung wäre theoretisch auch mit einem aktuellen Computer, mit herkömmlichen Bits möglich. Jedoch benötigen die Berechnungen eines solchen Entschlüsselungsverfahren viel Zeit, bis diese Computer zu einer Lösung kommen bzw. den privaten Schlüssel berechnet haben. Ein klassischer Computer benötigt zum Beispiel 300 Billionen Jahre um einen privaten RSA-2048 Bit Schlüssel über den öffentlichen Schlüssel zu entschlüsseln. Aus diesem Grund zählt diese Verschlüsselungsart heutzutage als sicher, da es verhältnismäßig viel zu lange dauert, um an die verschlüsselten Daten zu gelangen. Dies können Quantencomputer in der Zukunft theoretisch ändern. Durch den Shor Algorithmus, welcher zuvor erläutert wurde, ist es möglich, die Komplexität der Berechnung des privaten Schlüssels deutlich zu minimieren. Konkret setzt erleichtert dieser das Herausfinden der Periode p. Dies ist speziell beim RSA-Verschlüsselungsverfahren möglich, da es sich um eine asymmetrische Verschlüsselung mit Basis der Primzahlmultiplikatuion handelt. Diese Zahlen je nach Algorithmus sind sehr groß (siehe 2048 Bit Schlüssel) und somit mit heutigen Computern und deren Rechenleistung nur schwer zurückzurechnen. Ein Quantencomputer mit 4099 stabilen Qubits könnte theoretisch einen RSA-2048 Schlüssel innerhalb von 10 Sekunden entschlüsseln, anstatt den momentanen notwendigen 300 Billionen Jahren. Der Quantencomputer würde somit nach 10 Sekunden aus dem öffentlichen Schlüssel den privaten Schlüssel berechnen können. Dadurch wäre der heute heutige Verschlüsselungsstandard RSA im Web nicht mehr sicher genug.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal was kann man dagegen tun-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="whatToDoAgainst" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="whatToDoAgainstLabel">Was kann man dagegen tun?</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Die Perfect forward Secrecy (PFS) Methode ist für den Schlüsselaustausch in einem kryptografischen Verfahren entwickelt worden, um die nachträgliche Entschlüsselung durch Bekanntwerden des privaten Schlüssels zu verhindern. Dabei kommen sogenannte Sitzungsschlüssel zum Einsatz. Nach dem Austausch der Daten und Beendigung der Sitzung, werden auf beiden Seiten die Sitzungsschlüssel unwiderruflich gelöscht. Wenn dies ordnungsgemäß auf beiden Seiten durchgeführt wurde, ist auch trotz Bekanntgabe des privaten Schlüssels nach Beendigung der Sitzung keine Entschlüsselung der Daten möglich. Die PFS Methode verwendet das so genannte Diffie-Hellman-Verfahren, das dafür sorgt, dass die Sitzungsschlüssel nicht übertragen werden müssen und somit auch nicht von einer unberechtigten Person abgefangen werden können. Der Vorteil ist, dass PFS deutlich mehr Sicherheit vor nachträglicher Entschlüsselung bietet. Nachteil ist jedoch, dass das Diffie-Hellman-verfahren höhere Anforderungen an die Computersysteme und deren Rechenleistung hat. Die Schlüsselerzeugung und der SSL-Handshake benötigten deutlich mehr Zeit. Dadurch ist vor allem bei den Servern leistungsfähigere Hardware notwendig, da diese viele verschiedene Verbindungen aufrechterhalten müssen.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal summary-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="summary" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="summaryLabel">Zusammenfassung</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        Zusammenfassend ist festzustellen, dass die aktuell genutzten Sicherheitsstandards durch die Weiterentwicklungen von Technologien, wie bspw. Quantencomputern, zukünftig nicht mehr sicher sind. Speziell wenn das Prinzip von „Store Now. Decrypt Later“ genauer betrachtet wird. Das Verschlüsselungsverfahren „RSA“ kann mittels des Shor Algorithmus und Quantencomputer entschlüsselt werden und somit Zugriff auf die verschlüsselten Daten erlangen. Aus diesem Grund ist es wichtig, dass ein Bewusstschein geschaffen wird, dass aktuelle Verschlüsselungsverfahren in Zukunft nicht sicher sind. Folglich müssen neue Standards implementiert werden. Aus diesem Grund muss schon heute neue Quantensichere Verschlüsselungsverfahren entwickelt werden. Als Beispiel das von dem US-amerikanischen National Institute of Standards and Technology initiierte Projekt „Post-Quantum Cryptography Project".
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 
+
+<!--Footer-->
 <footer>
-    <address class="monospace">  <a href="https://github.com/cpitclaudel/academic-poster-template">https://github.com/cpitclaudel/academic-poster-template</a>
+    <address class="monospace"><a
+            href="https://github.com/cpitclaudel/academic-poster-template">https://github.com/cpitclaudel/academic-poster-template</a>
     </address>
-    <address class="monospace">  Quantencomputing &middot; WWI21KI DHBW Heidenheim
+    <address class="monospace"> Quantencomputing &middot; WWI21KI DHBW Heidenheim
     </address>
     <span class="credits">
           Based on an <a href="https://github.com/cpitclaudel/academic-poster-template">open poster template</a>.
         </span>
-    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </footer>
 </body>
 </html>
+
+
+<!--<article>
+       <header><h3>Editing the HTML directly</h3></header>
+
+       <p>This is the simplest way to get started, since it just requires a text editor:</p>
+
+       <ol>
+           <li>Download the <a href="https://github.com/cpitclaudel/academic-poster-template/releases/latest">latest
+               release</a> of this template (or download the <a
+                   href="https://raw.githubusercontent.com/cpitclaudel/academic-poster-template/main/docs/tutorial/poster.html">webpage</a>
+               and the corresponding <a
+                       href="https://raw.githubusercontent.com/cpitclaudel/academic-poster-template/main/docs/poster.css">stylesheet</a>
+               directly from the <a
+                       href="https://github.com/cpitclaudel/academic-poster-template/tree/main/docs/tutorial/">repository</a>).
+           </li>
+           <li>Adjust the metadata and add blocks to the <code>main</code> section.</li>
+       </ol>
+   </article>
+
+   <article>
+       <header><h3>Poster layout</h3></header>
+
+       <p>Posters made using this template are composed of a sequence of blocks. You can use CSS to customize the way
+           the blocks are designed; by default they scroll left to right on wide screens and top to bottom on narrow
+           screens.</p>
+
+       <b>Try resizing your browser to see how the poster's layout changes.</b>
+   </article>
+
+   <article>
+       <header><h3>Block template</h3></header>
+
+       <p>Each block has the following structure (fill in the italicized parts):</p>
+
+       <pre>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a>&gt;
+ &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">header</a>&gt;&lt;<a
+                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h">h3</a>&gt;<i>Block title</i>&lt;/<a
+                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3">h3</a>&gt;&lt;/<a
+                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">header</a>&gt;
+
+ <i>Block contents:
+   paragraphs (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;),
+   figures (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;),
+   lists (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;, &lt;<a
+             href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;),
+   images (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a>&gt;, &lt;<a
+             href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object">object</a>&gt;),
+   tables (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">table</a>&gt;), …</i>
+&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article">article</a>&gt;</pre>
+   </article>
+
+   <article>
+       <header><h3>Structural markup</h3></header>
+
+       <p>The following markup is useful to structure content blocks:</p>
+       <ul>
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;</code>
+               <p style="margin: 0">Paragraphs</p>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p">p</a>&gt;</code>
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;</code>
+               <ul>
+                   <li><code>&lt;<a
+                           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code>…<code>&lt;/<a
+                           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code></li>
+               </ul>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">ul</a>&gt;</code>
+               (Plain lists)
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;</code>
+               <ol>
+                   <li><code>&lt;<a
+                           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code>…<code>&lt;/<a
+                           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li">li</a>&gt;</code></li>
+               </ol>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">ol</a>&gt;</code>
+               (Numbered lists)
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">b</a>&gt;</code>
+               <b>Call-outs (<i>alerts</i>)</b>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b">b</a>&gt;</code>
+           </li>
+       </ul>
+   </article>
+
+   <article>
+       <header><h3>Inline markup</h3></header>
+       <ul>
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a>
+                   href="<var>url</var>"&gt;</code>
+               <a href="url">Links</a>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">a</a>&gt;</code>
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em</a>&gt;</code>
+               <em>Emphasized text</em>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em">em</a>&gt;</code>
+           </li>
+
+           <li>
+               <code>&lt;<a
+                       href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong</a>&gt;</code>
+               <strong>Important text</strong>
+               <code>&lt;/<a
+                       href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong">strong</a>&gt;</code>
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">i</a>&gt;</code>
+               <i>Scientific terms, foreign words</i>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">i</a>&gt;</code>
+           </li>
+
+           <li>
+               <code>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var">var</a>&gt;</code>
+               <var>Math variables, placeholders</var>
+               <code>&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var">var</a>&gt;</code>
+           </li>
+       </ul>
+
+       <b>Not sure which one to use? Check out <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i">Mozilla's
+           explanations</a>. Using appropriate markup helps screen readers a lot.</b>
+   </article>
+
+   <article>
+       <header><h3>Figures</h3></header>
+
+       <p>Use the following code to insert a figure:</p>
+
+       <pre>&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;
+ <i>Figure contents:
+   images (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a>&gt;, &lt;<a
+             href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object">object</a>&gt;),
+   tables (&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table">table</a>&gt;),
+   quotes, …</i>
+ &lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">figcaption</a>&gt;<i>Figure caption</i>&lt;/<a
+                   href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption">figcaption</a>&gt;
+&lt;/<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure">figure</a>&gt;</pre>
+
+       <hr/>
+
+       <figure>
+           <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo.svg" width="197" height="64"
+                alt="An orange shield with a white 5 emblazoned on it and the letters HTML above it.">
+
+           <figcaption>The HTML5 logo (<i>Source: <a href="https://www.w3.org/html/logo/">W3C</a></i>)</figcaption>
+       </figure>
+   </article>
+
+   <article>
+       <header><h3>Images</h3></header>
+
+       <p>Use the following code to include an image:</p>
+
+       <pre class="center-self">&lt;<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">img</a> src="<var>source url</var>"
+    alt="<var>image description</var>"&gt;</pre>
+
+       <p>Prefer scalable images (SVG) for technical drawings and figures.</p>
+
+       <small>Most technical drawing software supports saving as SVG; if yours does not, you can typically save to PDF,
+           which can then easily be <a
+                   href="https://superuser.com/questions/381125/how-do-i-convert-an-svg-to-a-pdf-on-linux">converted to
+               SVG</a> (this is useful for TikZ diagrams in particular).</small>
+
+       <p>Make sure to include an <code>alt</code> attribute: it will be read by assistive technology and displayed
+           while the image is loading.
+       </p>
+   </article>
+
+   <article>
+       <header><h3>Mathematics</h3></header>
+
+       <p>This poster template loads <a href="https://www.mathjax.org/">MathJax</a> by default, so you can include
+           inline math in backslash-parentheses <code>\( … \)</code> and display math in backslash-brackets <code>\[ …
+               \]</code>:</p>
+
+       <p class="center">\((\lambda x. e) v \downarrow e[x/v]\) (β-reduction)</p>
+
+       \[\frac
+       {\langle \mathtt{expr}, s\rangle \Downarrow v}
+       {\langle \mathtt{var := expr}, s\rangle \downarrow s\left[\mathtt{var} \leftarrow v\right]}
+       \small{\text{Assign}}\]
+
+       <p>Using MathJax allows users of assistive technology to browse the equations.</p>
+   </article>
+
+   <article>
+       <header><h3>Additional styling</h3></header>
+
+       <p>The template's stylesheet defines a few extra CSS classes:</p>
+
+       <p class="boxed center"><code>.center</code><br/>
+           (horizontally centered text)</p>
+
+       <p class="boxed justify-center"><code>.justify-center</code><br/>
+           (horizontally centered block)</p>
+
+       <div class="boxed center">
+           <div class="center columns" style="height: 3em">
+               <code style="align-self: start">.columns-top</code>
+               <code style="align-self: center">.columns-center</code>
+               <code style="align-self: end">.columns-bottom</code>
+           </div>
+           <span>(columns)</span>
+       </div>
+
+       <small>To customize column widths, use <a
+               href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns"><code>grid-template-columns</code></a>;
+           for example, for 40%/60% widths, use the following snippet:
+           <pre class="center">style="grid-template-columns: 40fr 60fr"</pre>
+       </small>
+   </article>
+
+   <figure style="flex-grow: 9999999">
+       <img style="width: 70%" src="logo.svg" alt="Project logo"/>
+       <figcaption>A stand-alone figure to fill the remaining space.</figcaption>
+   </figure>-->

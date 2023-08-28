@@ -21,6 +21,19 @@ h3 {
     font-weight: 500;
     font-size: 1.17em;
 }
+
+.modal {
+    max-width: unset !important;
+}
+
+.c_modal:hover {
+    cursor: crosshair;
+}
+
+.highlight {
+    background-color: #ffffcc;
+}
+
 pre,
 code,
 samp,
