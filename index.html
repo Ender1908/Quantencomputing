@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/core.css">
     <script type="text/javascript" id="MathJax-script" async
             src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
           rel="stylesheet">
 
@@ -23,9 +22,30 @@
 </head>
 
 <body vocab="http://schema.org/" typeof="ScholarlyArticle">
-<header role="banner">
-    <aside>
-        <!--        <a href="https://github.com/cpitclaudel/academic-poster-template"><img src="logo.svg" alt="Tutorial logo"></a>-->
+<header role="banner" class="c_banner">
+
+    <div class="c_headlines">
+        <h1 property="headline">Store Now Decrypt Later</h1>
+        <h2 property="alternativeHeadline">Quantencomputing</h2>
+        <address>
+            <a property="author">WWI21KI</a>
+            <br/><a property="sourceOrganization" href="https://heidenheim.dhbw.de" target="_blank">DHBW Heidenheim</a>
+        </address>
+    </div>
+    <div class="c_picture">
+        <aside>
+            <a href="https://www.heidenheim.dhbw.de/startseite" target="_blank"><img style="background: white" src="assets/images/Logo.png" alt="DHBW Heidenheim Logo"></a>
+
+        </aside>
+    </div>
+
+
+
+
+
+
+<!--    <aside>
+        &lt;!&ndash;        <a href="https://github.com/cpitclaudel/academic-poster-template"><img src="logo.svg" alt="Tutorial logo"></a>&ndash;&gt;
     </aside>
     <div>
         <h1 property="headline">Store Now Decrypt Later</h1>
@@ -40,35 +60,32 @@
                   </span>
     </div>
     <aside>
-        <a href="https://www.heidenheim.dhbw.de/startseite"><img style="background: white" src="assets/images/Logo.png"
-                                                                 alt="MIT CSAIL Logo"></a>
-        <a href="https://www.heidenheim.dhbw.de/startseite"><img style="background: white"
-                                                                 src="./_assets/images/Logo.png"
-                                                                 alt="MIT CSAIL Logo"></a>
-    </aside>
+        <a href="https://www.heidenheim.dhbw.de/startseite" target="_blank"><img style="background: white" src="assets/images/Logo.png" alt="DHBW Heidenheim Logo"></a>
+
+    </aside>-->
 </header>
 
-<main property="articleBody">
+<main property="articleBody" id="mainBody">
 
     <!--Einführung-->
     <article property="abstract">
-        <header><h3>Zielsetzung / Relevanz des Themas</h3></header>
-
-
-        <p>Academic posters are usually designed using presentation software and distributed as images or PDFs.</p>
-
-        <p>While PDFs are fine for printing posters, they are not particularly user-friendly: they are hard to read on small screens, don't support resizing text or increasing contrast, and often don't work nicely with screen readers.</p>
-
-        <p>The recent shift to online conferences is a great opportunity to reconsider our poster-making tools, and it turns out that plain HTML5 + CSS works pretty well for making (more) accessible posters.</p>
-
-        <p>This template is released under a permissive license: all we ask if you use it for your own posters is that you leave a one-line comment in the HTML sources.</p>
+        <header><h3>Relevanz</h3></header>
+        <p>
+            Im Gegensatz zu herkömmlichen Computern, welche auf Bits basieren, basieren Quantencomputer auf Quantenbits, auch Qubits genannt.
+        </p>
+        <p>
+            Mittels Quantencomputern und deren speziellen Verfahren können mathematische Probleme in kürzester Zeit gelöst werden.
+        </p>
+        <p>
+            Dies bringt Probleme hinsichtlich der Sicherheit von Daten mit sich, denn aktuell werden Daten mit asymmetrischen Verschlüsselungsverfahren (bspw. RSA), bei welchen mathematische Probleme zur Verschlüsselung genutzt werden, verschlüsselt. Quantencomputer sind in der Lage, diese nutzen mathematischen Probleme mittels des „Shor-Algorithmus" zu lösen und stellen damit eine Bedrohung für die Sicherheit der genutzten Verfahren dar.
+        </p>
     </article>
 
 
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#why">
         <header><h3> Warum betrifft es uns?</h3></header>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aspernatur assumenda blanditiis debitis doloribus dolorum ex, expedita fugit illum iure labore maiores provident quaerat tenetur, ullam velit vitae voluptatibus.
+            Verschlüsselte Daten werden schon heute gesammelt, um sie zu entschlüsseln, sobald leistungsfähige Quantencomputer einsatzfähig sind. Dies wird auch "Store now, decrypt later" genannt.
         </p>
 
 
@@ -78,7 +95,7 @@
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#rsa">
         <header><h3>RSA</h3></header>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci, aspernatur assumenda blanditiis debitis doloribus dolorum ex, expedita fugit illum iure labore maiores provident quaerat tenetur, ullam velit vitae voluptatibus.
+            Das RSA-Verfahren wurde in den 1970er Jahren von den Wissenschaftlern Ron Rivest, Adi Shamir und Len Adleman entwickelt. Es ist ein Verschlüsselungsverfahren, welches auf dem Faktorisierungsproblem basiert.
         </p>
 
 
@@ -88,7 +105,7 @@
         <header><h3>Algorithmen</h3></header>
         <div>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis doloribus excepturi facilis, incidunt modi neque quam quasi rerum vitae? Delectus deleniti error est officia quisquam sapiente ullam? Fuga, ipsum.
+                Peter Shor entwickelte im Jahre 1994 einen Algorithmus, welcher das Faktorisierungsproblem lösen kann. Dieser ist heute als "Shor Algorithmus" bekannt. Der Alogirthmus ist in der Lage, die Primfaktoren einer Zahl zu berechnen. Der euklidische Algorithmus wird hierbei verwendet und im weiteren erklärt.
             </p>
         </div>
         <hr>
@@ -104,21 +121,35 @@
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputer">
         <header><h3>Quantencomputer</h3></header>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
+            Ein Quantencomputer basiert auf Quantenmechanik und nutzt Qubits anstelle herkömmlicher Bits. Qubits können im Gegensatz zu klassischen Bits den Zustand 0, 1 oder eine Superposition aus beiden gleichzeitig annehmen.
         </p>
     </article>
 
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputerChanges">
         <header><h3>Was ändert ein Quantencomputer daran?</h3></header>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
+            Aktuelle Computer können theoretisch RSA-Schlüssel entschlüsseln, doch die Berechnungen dauern lange, z. B. 300 Billionen Jahre für einen 2048-Bit-Schlüssel. Daher gilt RSA als sicher. Zukünftige Quantencomputer könnten jedoch durch den Shor-Algorithmus diese Zeit drastisch verkürzen, z. B. auf 10 Sekunden für einen 2048-Bit-Schlüssel mit einem 4099-Qubit-Quantencomputer. Das würde den heutigen RSA-Verschlüsselungsstandard unsicher machen.
+        </p>
+    </article>
+
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#whatToDoAgainst">
+        <header><h3>Was kann man dagegen tun?</h3></header>
+        <p>
+            Die Post-Quanten-Kryptografie umfasst Verfahren, die selbst von Quantencomputern nicht gebrochen werden können. Dies beinhaltet codebasierte, gitterbasierte und hashbasierte Kryptografie sowie die Methode Perfect Forward Secrecy (PFS). PFS nutzt das Diffie-Hellman-Verfahren, um Sitzungsschlüssel auszutauschen, die nach der Kommunikation gelöscht werden. Dadurch bleibt Entschlüsselung trotz bekanntem privatem Schlüssel unmöglich. PFS bietet hohe Sicherheit, erfordert jedoch leistungsfähigere Hardware und längere Schlüsselerzeugung und SSL-Handshakes, besonders für Server mit vielen Verbindungen.
         </p>
     </article>
 
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#summary">
         <header><h3>Zusammenfassung</h3></header>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur corporis, ea esse, exercitationem id ipsam nam necessitatibus omnis quaerat quisquam velit voluptatum. Aut consequatur debitis dolor ducimus explicabo nostrum voluptas.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad amet asperiores corporis culpa, cum, eius eligendi expedita facilis itaque laboriosam molestiae nobis nulla, optio quis repellendus sint ullam voluptas!
+        </p>
+    </article>
+
+    <article class="c_modal" data-bs-toggle="modal" data-bs-target="#sources">
+        <header><h3>Quellen</h3></header>
+        <p>
+            In diesem Abschnitt werden die Quellen aufgelistet, welche für die Erstellung dieses Poster verwendet wurden.
         </p>
     </article>
 
@@ -192,7 +223,7 @@
                         \(p\) und \(q\) sind die privaten Schlüssel
                     </p>
                     <p>
-                        Die Sicherheit der RSA – Verschlüsselung beruht darauf, dass es einfach ist, den öffentlichen Schlüssel zu bilden, aber es jedoch nahezu unmöglich ist den privaten Schlüssel anhand des öffentlichen zu berechnen.
+                        Die Sicherheit der RSA – Verschlüsselung beruht darauf, dass es einfach ist, den öffentlichen Schlüssel zu bilden, aber es jedoch nahezu unmöglich ist den privaten Schlüssel anhand des öffentlichen zu berechnen. Dies nennt man Faktorisierungsproblem.
                     </p>
                     <p>
                         Dieser öffentliche Schlüssel wird für die Verschlüsselung verwendet und muss nicht geheimgehalten werden. Der private Schlüssel hingegen muss geheimgehalten werden und wird für die Entschlüsselung verwendet. Zur Verschlüsselung einer Nachricht wird der öffentliche Schlüssel des Empfängers verwendet. Die Nachricht wird je nach deren Länge in Blöcke aufgeteilt. Jeder dieser Blöcke wird durch den öffentlichen Schlüssel verschlüsselt. Nun kann diese verschlüsselte Nachricht an den Empfänger gesendet werden. Nun kann der Empfänger die verschlüsselte Nachricht entschlüsseln. Hierfür muss er seinen privaten Schlüssel verwenden. Durch die RSA – Verschlüsselung kann die Nachricht nur mit dem entsprechenden privaten Schlüssel entschlüsselt werden.
@@ -483,8 +514,6 @@
     </div>
 
 
-
-
     <!--Modal Quantencomputer-->
     <div class="modal modal-xl fade .modal-dialog-scrollable" id="quantencomputer" tabindex="-1"
          aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -569,21 +598,50 @@
         </div>
     </div>
 
+    <!--Modal sources-->
+    <div class="modal modal-xl fade .modal-dialog-scrollable" id="sources" tabindex="-1"
+         aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="sourcesLabel">Quellen</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <ol class="custom-list">
+                        <li>
+                            test
+                        </li>
+                        <li>
+                            test
+                        </li>
+                    </ol>
+
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 </main>
 
 
 <!--Footer-->
 <footer>
-    <address class="monospace"><a
+    <!--<address class="monospace"><a
             href="https://github.com/cpitclaudel/academic-poster-template">https://github.com/cpitclaudel/academic-poster-template</a>
-    </address>
-    <address class="monospace"> Quantencomputing &middot; WWI21KI DHBW Heidenheim
-    </address>
-    <span class="credits">
+    </address>-->
+    <address class="monospace"> Quantencomputing &middot; WWI21KI DHBW Heidenheim</address>
+    <!--<span class="credits">
           Based on an <a href="https://github.com/cpitclaudel/academic-poster-template">open poster template</a>.
-        </span>
+        </span>-->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/scroll.js"></script>
 </footer>
 </body>
 </html>
