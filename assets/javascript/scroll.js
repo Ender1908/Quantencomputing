@@ -12,7 +12,6 @@ var modals = [
     document.getElementById('euklAlgorithmus'),
     document.getElementById('rsa'),
     document.getElementById('why'),
-    document.getElementById('einführung')
 ];
 
 window.addEventListener("wheel", function (e) {
