@@ -42,6 +42,12 @@ footer {
     flex-direction: column;
     display: flex !important;
 }
+.c_popup {
+    display: flex;
+}
+.c_popup div:last-child {
+    margin-left: auto;
+}
 
 .c_headlines {
     display: flex;
