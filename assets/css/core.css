@@ -178,6 +178,7 @@ body > footer {
     align-items: center;
     background: white;
     color: #e2001a;
+    /*color: black;*/
     display: grid;
     grid-gap: 0.5rem;
     padding: 0.5rem;
@@ -302,7 +303,8 @@ article > .MathJax_MathML {
 }
 
 article > header {
-    background: #5c6971;
+    /*background: #5c6971;*/
+    background: #e2001a;
     color: white;
     margin: 0 -0.5rem auto -0.5rem;
     padding: 0.25rem 0.5rem;

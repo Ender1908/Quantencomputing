@@ -40,27 +40,6 @@
 
         </aside>
     </div>
-
-
-    <!--    <aside>
-            &lt;!&ndash;        <a href="https://github.com/cpitclaudel/academic-poster-template"><img src="logo.svg" alt="Tutorial logo"></a>&ndash;&gt;
-        </aside>
-        <div>
-            <h1 property="headline">Store Now Decrypt Later</h1>
-            <h2 property="alternativeHeadline">Quantencomputing</h2>
-            <address>
-                <a property="author">WWI21KI</a>
-                <br/><a property="sourceOrganization" href="https://heidenheim.dhbw.de" target="_blank">DHBW Heidenheim</a>
-            </address>
-            <span class="publication-info">
-                          <span property="publisher">Unpublished</span>,
-                <time pubdate property="datePublished" datetime="2020-09-08">September 8, 2020</time>
-                      </span>
-        </div>
-        <aside>
-            <a href="https://www.heidenheim.dhbw.de/startseite" target="_blank"><img style="background: white" src="assets/images/Logo.png" alt="DHBW Heidenheim Logo"></a>
-
-        </aside>-->
 </header>
 
 <main property="articleBody" id="mainBody">
@@ -69,7 +48,7 @@
     <article property="abstract">
         <header><h3>Einführung / Relevanz</h3></header>
         <p>
-            Quantencomputer sind eine vielversprechende Entwicklung in der Welt der Informationstechnologie. Sie nutzen Prinzipien der Quantenmechanik, und ermöglichen es daher mathematische Probleme effizienter zu lösen? Gleichzeitig bringen sie auch erhebliche Sicherheitsbedenken mit sich, da sie herkömmliche Verschlüsselungsalgorithen gefährden können. [Quelle?]
+            Quantencomputer sind eine vielversprechende Entwicklung in der Welt der Informationstechnologie. Sie nutzen Prinzipien der Quantenmechanik, und ermöglichen es daher mathematische Probleme effizienter zu lösen? Gleichzeitig bringen sie auch erhebliche Sicherheitsbedenken mit sich, da sie bspw. das RSA-Verschlüsselungsverfahren entschlüsseln können. [Quelle?]
         </p>
         <p>
             Eine besonders große Bedrohung stellt dabei das Store Now decrypt later prinzip dar.
@@ -147,9 +126,13 @@
                 <img src="assets/images/open_in_new_black.png" alt="Pop-Up">
             </div>
         </div>
-
-
     </article>
+
+
+    <figure style="flex-grow: 9999999">
+        <img src="assets/images/00000-2566466014.png" alt="cybersecurity" />
+    </figure>
+
 
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputer">
         <header class="c_popup">
@@ -164,6 +147,8 @@
             Ein Quantencomputer basiert auf Quantenmechanik und nutzt Qubits anstelle herkömmlicher Bits. Qubits können im Gegensatz zu klassischen Bits den Zustand 0, 1 oder eine Superposition aus beiden gleichzeitig annehmen. [14]
         </p>
     </article>
+
+
 
     <article class="c_modal" data-bs-toggle="modal" data-bs-target="#quantencomputerChanges">
         <header class="c_popup">
@@ -232,7 +217,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="whyLabel">Warum betrifft es uns?</h1>
+                    <h1 class="modal-title fs-5" id="whyLabel">Store Now. Decrypt Later</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -281,7 +266,7 @@
                         Der öffentliche Schlüssel wird für die Verschlüsselung verwendet und muss nicht geheimgehalten werden. Der private Schlüssel hingegen muss geheimgehalten werden und wird für die Entschlüsselung verwendet. Zur Verschlüsselung einer Nachricht wird der öffentliche Schlüssel des Empfängers verwendet. Die Nachricht wird je nach deren Länge in Blöcke aufgeteilt. Jeder dieser Blöcke wird durch den öffentlichen Schlüssel verschlüsselt. Nun kann diese verschlüsselte Nachricht an den Empfänger gesendet werden. Der Empfänger kann dann die verschlüsselte Nachricht entschlüsseln. Hierfür muss er seinen privaten Schlüssel verwenden. Durch die RSA–Verschlüsselung kann die Nachricht nur mit dem entsprechenden privaten Schlüssel entschlüsselt werden. [8]
                     </p>
                     <p>
-                        Mit dem heutigen Stand der Technik ist es, wie oben erwähnt, unmöglich den öffentlichen Schlüssel n ohne den privaten Schlüssel p und q in dessen Primfaktoren zu zerlegen. Damit dies der Fall ist empfhielt das Bundesamt für Sicherheit in der Informationstechnik eine Mindestbitlänge von 3000 Bits. Dies garantiert die Sicherheit von RSA. [9]
+                        Mit dem heutigen Stand der Technik ist es, wie oben erwähnt, unmöglich den öffentlichen Schlüssel n ohne den privaten Schlüssel p und q in dessen Primfaktoren zu zerlegen. Damit dies der Fall ist empfiehlt das Bundesamt für Sicherheit in der Informationstechnik eine Mindestbitlänge von 3000 Bits. Dies garantiert die Sicherheit von RSA. [9]
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -641,7 +626,7 @@
                         Ein weiteres Verfahren ist die Perfect forward Secrecy (PFS) Methode. PFS ist für den Schlüsselaustausch in einem kryptografischen Verfahren entwickelt worden, um die nachträgliche Entschlüsselung durch Bekanntwerden des privaten Schlüssels zu verhindern. Dabei kommen sogenannte Sitzungsschlüssel zum Einsatz. Nach dem Austausch der Daten und Beendigung der Sitzung werden auf beiden Seiten die Sitzungsschlüssel unwiderruflich gelöscht. Wenn dies ordnungsgemäß auf beiden Seiten durchgeführt wurde, ist auch trotz Bekanntgabe des privaten Schlüssels nach Beendigung der Sitzung keine Entschlüsselung der Daten möglich. Die PFS Methode verwendet das so genannte Diffie-Hellman-Verfahren, das dafür sorgt, dass die Sitzungsschlüssel nicht übertragen werden müssen und somit auch nicht von einer unberechtigten Person abgefangen werden können. Der Vorteil ist, dass PFS deutlich mehr Sicherheit vor nachträglicher Entschlüsselung bietet. Nachteil ist jedoch, dass das Diffie-Hellman-verfahren höhere Anforderungen an die Computersysteme und deren Rechenleistung hat. Die Schlüsselerzeugung und der SSL-Handshake benötigten deutlich mehr Zeit. Dadurch ist vor allem bei den Servern leistungsfähigere Hardware notwendig, da diese viele verschiedene Verbindungen aufrechterhalten müssen. [17]
                     </p>
                     <p>
-                       Des Weiteren existieren Standardisierungsaktivitäten im Bereich quantischer Kryptogrrafie, insbesondere das Post-Quantum-Cryptography Project des US-amerikanischen National Institute of Standards nad Technology (NIST). Dieses Projekt befasst sich in mehreren Runden mit eingereichten Kryptografie-Verfahren, die innerhalb dieses Projekts untersucht werden. Als Ergebnis werden neue Verfahren standardisiert. [16]
+                       Des Weiteren existieren Standardisierungsaktivitäten im Bereich quantischer Kryptogrrafie, insbesondere das Post-Quantum-Cryptography Project des US-amerikanischen National Institute of Standards and Technology (NIST). Dieses Projekt befasst sich in mehreren Runden mit eingereichten Kryptografie-Verfahren, die innerhalb dieses Projekts untersucht werden. Als Ergebnis werden neue Verfahren standardisiert. [16]
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -684,7 +669,7 @@
                 <div class="modal-body">
                     <ol class="custom-list">
                         <li>
-                            Was ist Quantencomputing? | IBM (2023). Online verfügbar unter https://www.ibm.com/de-de/topics/quantum-computing, Zugriff am 01.09.2023.
+                            Hagemeier, Heike (2019): Kryptografie – heute und zukünftig. In: Datenschutz Datensich 43 (10), S. 631–635.
                         </li>
                         <li>
                             Fraunhofer-Gesellschaft (2023): Quantencomputing. Online verfügbar unter https://www.fraunhofer.de/de/forschung/aktuelles-aus-der-forschung/quantentechnologien/quantencomputing.html, Zugriff am 30.08.2023.
