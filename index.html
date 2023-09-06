@@ -93,7 +93,7 @@
         <header><h3>Algorithmen</h3></header>
         <div>
             <p>
-                Peter Shor entwickelte im Jahre 1994 einen Algorithmus, welcher das Faktorisierungsproblem lösen kann. Dieser ist heute als "Shor Algorithmus" bekannt. Der Alogirthmus ist in der Lage, die Primfaktoren einer Zahl zu berechnen. [8]
+                Peter Shor entwickelte im Jahre 1994 einen Algorithmus, welcher das Faktorisierungsproblem lösen kann. Dieser ist heute als "Shor Algorithmus" bekannt. Der Algorithmus ist in der Lage, die Primfaktoren einer Zahl zu berechnen. [8]
             </p>
             <p>
                 Hierbei wird der euklidische Algorithmus benötigt.
@@ -266,7 +266,7 @@
                         Der öffentliche Schlüssel wird für die Verschlüsselung verwendet und muss nicht geheimgehalten werden. Der private Schlüssel hingegen muss geheimgehalten werden und wird für die Entschlüsselung verwendet. Zur Verschlüsselung einer Nachricht wird der öffentliche Schlüssel des Empfängers verwendet. Die Nachricht wird je nach deren Länge in Blöcke aufgeteilt. Jeder dieser Blöcke wird durch den öffentlichen Schlüssel verschlüsselt. Nun kann diese verschlüsselte Nachricht an den Empfänger gesendet werden. Der Empfänger kann dann die verschlüsselte Nachricht entschlüsseln. Hierfür muss er seinen privaten Schlüssel verwenden. Durch die RSA–Verschlüsselung kann die Nachricht nur mit dem entsprechenden privaten Schlüssel entschlüsselt werden. [6]
                     </p>
                     <p>
-                        Mit dem heutigen Stand der Technik ist es, wie oben erwähnt, unmöglich den öffentlichen Schlüssel n ohne den privaten Schlüssel p und q in dessen Primfaktoren zu zerlegen. Damit dies der Fall ist empfiehlt das Bundesamt für Sicherheit in der Informationstechnik eine Mindestbitlänge von 3000 Bits. Dies garantiert die Sicherheit von RSA. [7]
+                        Mit dem heutigen Stand der Technik ist es, wie oben erwähnt, unmöglich den öffentlichen Schlüssel n ohne den privaten Schlüssel p und q in dessen Primfaktoren zu zerlegen. Damit dies der Fall ist, empfiehlt das Bundesamt für Sicherheit in der Informationstechnik eine Mindestbitlänge von 3000 Bits. Dies garantiert die Sicherheit von RSA. [7]
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -287,11 +287,11 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Der Euklidische Algorithmus wird genutzt um den größten gemeinsamen Teiler zu ermitteln. Die Funktionsweise ist folgende:
+                        Der Euklidische Algorithmus wird genutzt, um den größten gemeinsamen Teiler zu ermitteln. Die Funktionsweise ist folgende:
                     </p>
                     <ol>
                         <li>
-                            Zunächst wird \(a\) durch \(b\) geteilt, um den Rest der Division zu erhalten. Ist der Rest gleich \(0\) ist \(b\) bereits der größte gemeinsame Teiler. Falls der Rest nicht gleich \(0\) ist so wird \(b\) durch den Rest geteilt.
+                            Zunächst wird \(a\) durch \(b\) geteilt, um den Rest der Division zu erhalten. Ist der Rest gleich \(0\) ist \(b\) bereits der größte gemeinsame Teiler. Falls der Rest nicht gleich \(0\) ist, so wird \(b\) durch den Rest geteilt.
                         </li>
                         <li>
                             Nun werden diese Schritte so oft ausgeführt bis der Rest gleich null ergibt. [9]
@@ -412,7 +412,7 @@
                     <ol>
                         <li>
                             <p>Es wird eine zufällige Zahl \( m \) ausgewählt. Diese Zahl muss kleiner als \(n\) sein. In diesem Beispiel wird die Zahl \(m = 3\) ausgewählt.</p>
-                            <p>Außerdem wird mithilfe des Euklidische Algorithmuses bestimmt der ggT der beiden Zahlen bestimmt.
+                            <p>Außerdem wird mithilfe des Euklidischen Algorithmus der ggT der beiden Zahlen bestimmt.
                                 \[ \text{ggT}(m, n) = \text{ggT}(3, 91) = 1 \]</p>
                             <table class="table table-bordered">
                                 <thead>
@@ -440,7 +440,7 @@
                             </table>
                         </li>
                         <li>
-                            <p>Im 2. Schritt wird nun die Periode \(P\) herausgefuden. Dies wird mit Hilfe folgender Fromel gelöst: \(m^x \pmod{n}\)</p>
+                            <p>Im 2. Schritt wird nun die Periode \(P\) herausgefunden. Dies wird mit Hilfe folgender Formel gelöst: \(m^x \pmod{n}\)</p>
                             <table class="table table-bordered">
                                 <thead>
                                 <tr>
